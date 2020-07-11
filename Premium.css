@@ -1,0 +1,90 @@
+.col-sm-2{
+	margin-top: 5em;
+}
+
+.icon{
+	position: relative;
+	top:200px;
+	left:40%;
+	border-radius: 70px;
+	background-color: #EFF4FF;
+	box-shadow: 0 2px 1px 0 rgba(255, 255, 255, 0.5), inset 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+	width: 258px;
+	height: 117px;
+	margin-right: 80px;
+	overflow: hidden;
+	-webkit-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	-o-transition: all .25s linear;
+	transition: all .25s linear;
+	cursor: pointer;
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	user-select: none;
+}
+
+.icon .handle{
+	width:107px;
+	height: 107px;
+	border-radius: 70px;
+	position: absolute;
+	top: 5px;
+	background-color: #fff;
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0px 4px 23px 0 rgba(0, 0, 0, 0.08), -2px 4px 4px 0 rgba(0, 0, 0, 0.1);
+	font-size: 20px;
+	line-height: 22px;
+	color: #6D808E;
+	text-decoration: none;
+	font-size: 44px;
+	color: #D8DAD9;
+	line-height: 107px;
+	text-align: center;
+	left: 5px;
+	-webkit-transition: all 0.4s cubic-bezier(0.33, 1.6, 0.66, 1);
+	-moz-transition: all 0.4s cubic-bezier(0.33, 1.6, 0.66, 1);
+	-o-transition: all 0.4s cubic-bezier(0.33, 1.6, 0.66, 1);
+	transition: all 0.4s cubic-bezier(0.33, 1.6, 0.66, 1);
+}
+
+.icon .handle{
+	-webkit-font-smoothing: antialiased;
+}
+
+.icon .handle:after{
+	content: "ON";
+	font-size: 58px;
+	font-weight: 400;
+	color: #fff;
+	text-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.1);
+	position: absolute;
+	left:-110px;
+}
+
+.icon.on{
+	background-color:  #FFA400;
+}
+
+.icon.on .handle{
+	left: 145px;
+	color: #FFA400;
+}
+
+.icon.on.red{
+	background-color: #FF3333;
+}
+
+.icno.on.red .handle{
+	color: #ff3333;
+}
+
+.icon.on.green{
+	background-color: #B1CA39;
+}
+
+.icon.on.green .handle{
+	color: #B1CA39;
+}
+
+/*CSS is also done with simple Glyphocon icon*/
